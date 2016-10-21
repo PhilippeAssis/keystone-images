@@ -1,0 +1,26 @@
+{
+  "name": "keystone-images",
+  "version": "0.0.1",
+  "description": "Modulo de configuração de sites para Keystone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilippeAssis/keystone-images.git"
+  },
+  "author": "Philippe Assis <assis@philippeassis.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhilippeAssis/keystone-images/issues"
+  },
+  "homepage": "https://github.com/PhilippeAssis/keystone-images#readme",
+  "dependencies": {
+    "file-exists": "^2.0.0",
+    "jimp": "^0.2.27",
+    "merge": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {}
+}
