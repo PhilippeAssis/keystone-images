@@ -1,6 +1,6 @@
 {
   "name": "keystone-images",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Modulo de configuração de sites para Keystone",
   "main": "index.js",
   "scripts": {

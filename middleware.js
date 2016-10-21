@@ -35,5 +35,5 @@ module.exports = (req, res, next) => {
 		view.image(req, res).size('big')
 	});
 
-	next();
+	return router;
 }
