@@ -16,23 +16,23 @@ module.exports = (req, res, next) => {
 	}
 
 	router.get('/files/image/thumb/:image', (req, res) => {
-		view.image(req, res).size('thumb')
+		view(req, res).size('thumb')
 	});
 
 	router.get('/files/image/small/:image', (req, res) => {
-		view.image(req, res).size('small')
+		view(req, res).size('small')
 	});
 
 	router.get('/files/image/medium/:image', (req, res) => {
-		view.image(req, res).size('medium')
+		view(req, res).size('medium')
 	});
 
 	router.get('/files/image/normal/:image', (req, res) => {
-		view.image(req, res).size('normal')
+		view(req, res).size('normal')
 	});
 
 	router.get('/files/image/big/:image', (req, res) => {
-		view.image(req, res).size('big')
+		view(req, res).size('big')
 	});
 
 	return router;

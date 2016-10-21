@@ -1,7 +1,7 @@
 {
   "name": "keystone-images",
-  "version": "0.0.2",
-  "description": "Modulo de configuração de sites para Keystone",
+  "version": "0.0.3",
+  "description": "Modulo de configuração images para Keystone",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

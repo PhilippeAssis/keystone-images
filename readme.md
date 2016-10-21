@@ -1,5 +1,5 @@
 # Keystone Images
-Modulo de configuração de sites para Keystone
+Modulo de configuração de images para Keystone
 
 In routes/index.js
 ```javascript
